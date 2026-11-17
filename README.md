@@ -32,7 +32,13 @@ core-lab/
 
 ## 🎨 设计源文件
 
-设计稿与 AI 渲染图原图存放在仓库外的 `design-source/`（不随仓库分发）。
+`design-source/` 内为设计源材料：
+
+- `component-renders.miora` — WorkBuddy 画板文件（8 张渲染图素材板）
+- `component-renders_assets/` — 8 张 AI 渲染图原图（原始文件名，与 `assets/` 内容一致）
+
+站点实际引用的是重命名后的 `assets/` 版本，原图仅作溯源存档。
+
 
 ## License
 
